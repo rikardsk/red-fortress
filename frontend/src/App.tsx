@@ -165,7 +165,7 @@ export const App: React.FC = () => {
             }}
             onClick={() => setShowBuildingMarket(prev => !prev)}
           >
-            🏗️ Markets: {showBuildingMarket ? 'ON' : 'OFF'}
+            🏗️ Building: {showBuildingMarket ? 'ON' : 'OFF'}
           </button>
           <button
             className="btn-gold"
