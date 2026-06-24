@@ -30,4 +30,5 @@
 - Too many walls? and is the price right?
 - Change the number of cards in the game menu (currently it's 108).
 - Change the number of buildings in the game menu (currently it's 54).
+- Time limits per player (5 minutes?)
 
