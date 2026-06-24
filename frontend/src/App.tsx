@@ -193,7 +193,7 @@ export const App: React.FC = () => {
             }}
             onClick={() => setShowPlayerSection(prev => !prev)}
           >
-            👤 Player: {showPlayerSection ? 'ON' : 'OFF'}
+            💬 Log & Chat: {showPlayerSection ? 'ON' : 'OFF'}
           </button>
           <button
             className="btn-gold"
