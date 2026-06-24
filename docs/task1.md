@@ -1,0 +1,28 @@
+# Red Fortress Development Task List
+
+- [x] Initialize Backend Project
+  - [x] Create `backend/package.json`
+  - [x] Create `backend/tsconfig.json`
+- [x] Implement Backend Core Logic
+  - [x] Create `backend/src/types.ts` for shared interfaces
+  - [x] Implement `backend/src/game/GameLogic.ts` (Deck, Market, Placement Validation, DFS Connectivity, Longest Wall DFS, Scoring Rounds)
+  - [x] Write unit tests for `GameLogic.ts`
+  - [x] Implement `backend/src/game/AIPlayer.ts` (AI strategy, auto-placement Finder)
+  - [x] Implement `backend/src/game/GameRoom.ts` (Room synchronization, actions dispatcher)
+  - [x] Implement `backend/src/game/GameManager.ts` (Lobby registry)
+  - [x] Implement `backend/src/server.ts` (HTTP & WebSocket setup)
+- [x] Initialize Frontend Project
+  - [x] Create `frontend/package.json`
+  - [x] Create `frontend/vite.config.ts`
+  - [x] Create `frontend/src/index.css` (Parchment & Medieval dark theme styling)
+- [x] Implement Frontend State & Socket
+  - [x] Create `frontend/src/hooks/useGameSocket.ts`
+  - [x] Create main routing/switching in `frontend/src/App.tsx`
+- [x] Implement Frontend UI Components
+  - [x] Create `frontend/src/components/Lobby.tsx`
+  - [x] Create `frontend/src/components/GameBoard.tsx` (Board layout, dynamic wall rendering, grid toggle, drag-and-drop or click-to-place)
+  - [x] Create `frontend/src/components/Markets.tsx` (Money cards selection, building market)
+  - [x] Create `frontend/src/components/PlayerInfo.tsx` & `PlayerBar.tsx` (Bottom bar with animal icons, chat/logs, detailed scores)
+- [x] Validation & Verification
+  - [x] Run backend unit tests and ensure clean passing
+  - [x] Manually test multiplayer gameplay between multiple browsers

@@ -1,0 +1,14 @@
+I have created an 
+implementation plan
+ for Red Fortress.
+
+Building this multiplayer board game is fully possible using a modern TypeScript stack. Before we begin, please check the plan and review the following open questions:
+
+Card Draw Details: When a player collects money, do they draw a random card from the face-down deck, or is there a face-up "money market" of cards they can choose from?
+
+Rearrange Tile Rules: When a player chooses to rearrange a tile, can they move any tile from their board back to their reserve, or swap it with another, as long as connectivity to the Fountain is maintained?
+
+Tile Reserve: Do players have a "Reserve" space where they can store purchased tiles before placing them on their board?
+
+Tile Walls & Alignments: In Alhambra, building tiles have walls on certain sides. Must we implement these wall alignment constraints, or is basic edge-adjacency enough?
+
